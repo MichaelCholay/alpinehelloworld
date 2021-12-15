@@ -13,7 +13,7 @@ pipeline {
 
     stages{
 
-       stage ('Build Image'){
+       stage ('Build Image $USERNAME/$IMAGE_NAME:$IMAGE_TAG'){
            agent any
            steps {
                script{
