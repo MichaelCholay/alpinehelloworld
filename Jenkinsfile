@@ -126,6 +126,8 @@ pipeline {
             }
         }        
     }
+    
+    }
 
         post {
         success{
